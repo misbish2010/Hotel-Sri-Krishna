@@ -17,7 +17,7 @@ export default function Navbar() {
         {/* Logo / Name */}
 
         <a href="#home" className="flex items-center space-x-2">
-          <img src="{logo}" alt="Hotel Sri Krishna Logo" className="h-10 w-auto" />
+          <img src={logo} alt="Hotel Sri Krishna Logo" className="h-10 w-auto" />
           <span className="text-2xl font-serif text-royal">Hotel Sri Krishna</span>
         </a>
 
