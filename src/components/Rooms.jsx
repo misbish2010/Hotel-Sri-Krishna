@@ -2,12 +2,15 @@ import React from "react";
 import RoomCard from "./RoomCard";
 import { FaWifi, FaSnowflake, FaTv, FaBath } from "react-icons/fa";
 import { MdElevator } from "react-icons/md";
+import studioImg from '../images/rooms/studio.jpg';
+import luxuryImg from '../images/rooms/luxury.jpg';
+import tripleImg from '../images/rooms/triple.jpg';
 
 const rooms = [
   {
     title: "Studio Room",
     price: "₹1500",
-    img: "/images/rooms/studio.jpg",
+    img: studioImg,
     desc: "Cozy stay for solo travelers or couples.",
     features: [
       { icon: <FaWifi className="text-royal" />, label: "Free WiFi" },
@@ -20,7 +23,7 @@ const rooms = [
   {
     title: "Luxury Room",
     price: "₹2500",
-    img: "/images/rooms/luxury.jpg",
+    img: luxuryImg,
     desc: "Spacious room with premium amenities.",
     features: [
       { icon: <FaWifi className="text-royal" />, label: "Free WiFi" },
@@ -33,7 +36,7 @@ const rooms = [
   {
     title: "Triple Room",
     price: "₹3000",
-    img: "/images/rooms/triple.jpg",
+    img: tripleImg,
     desc: "Ideal for families or groups.",
     features: [
       { icon: <FaWifi className="text-royal" />, label: "Free WiFi" },

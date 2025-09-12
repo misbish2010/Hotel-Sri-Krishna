@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from '../images/logo_circle_black_inside.png';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ export default function Navbar() {
         {/* Logo / Name */}
 
         <a href="#home" className="flex items-center space-x-2">
-          <img src="/images/logo_circle_black_inside.png" alt="Hotel Sri Krishna Logo" className="h-10 w-auto" />
+          <img src="{logo}" alt="Hotel Sri Krishna Logo" className="h-10 w-auto" />
           <span className="text-2xl font-serif text-royal">Hotel Sri Krishna</span>
         </a>
 
