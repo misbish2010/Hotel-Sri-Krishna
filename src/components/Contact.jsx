@@ -7,7 +7,7 @@ export default function Contact(){
       <div className="grid md:grid-cols-3 gap-6">
         <div className="p-6 bg-white rounded shadow text-center">
           <h3 className="font-semibold mb-2">Phone</h3>
-          <p>+91-XXXXXXXXXX</p>
+          <p>+91-8895575244</p>
         </div>
         <div className="p-6 bg-white rounded shadow text-center">
           <h3 className="font-semibold mb-2">Email</h3>

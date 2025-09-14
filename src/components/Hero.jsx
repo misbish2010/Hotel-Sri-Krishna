@@ -56,7 +56,7 @@ export default function Hero() {
             Explore Rooms
           </a>
           <a
-            href="https://wa.me/91XXXXXXXXXX?text=Hello%20Hotel%20Sri%20Krishna"
+            href="https://wa.me/918895575244?text=Hello%20Hotel%20Sri%20Krishna"
             target="_blank"
             rel="noreferrer"
             className="bg-white/90 text-royal px-6 py-3 rounded"
