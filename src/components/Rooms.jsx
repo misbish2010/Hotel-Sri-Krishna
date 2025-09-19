@@ -2,55 +2,75 @@ import React from "react";
 import RoomCard from "./RoomCard";
 import { FaWifi, FaSnowflake, FaTv, FaBath } from "react-icons/fa";
 import { MdElevator } from "react-icons/md";
-import studioImg from '../images/rooms/studio.jpg';
-import luxuryImg from '../images/rooms/luxury.jpg';
-import tripleImg from '../images/rooms/triple.jpg';
+import studioImg from "../images/rooms/studio.jpg";
+import luxuryImg from "../images/rooms/luxury.jpg";
+import tripleImg from "../images/rooms/triple.jpg";
 
 const rooms = [
   {
     title: "Studio Room",
-    price: "₹1500",
     img: studioImg,
     desc: "Cozy stay for solo travelers or couples.",
-    features: [
-      { icon: <FaWifi className="text-royal" />, label: "Free WiFi" },
-      { icon: <FaSnowflake className="text-royal" />, label: "AC" },
-      { icon: <FaTv className="text-royal" />, label: "TV" },
-      { icon: <FaBath className="text-royal" />, label: "Attached Bath" },
-      { icon: <MdElevator className="text-royal" />, label: "Lift Access" },
-    ],
+    price: {
+      ac: "₹1800.00 ",
+      nonAc: "₹1500.00 ",
+    },
+    features: {
+      common: [
+        { icon: <FaWifi className="text-royal" />, label: "Free WiFi" },
+        { icon: <FaTv className="text-royal" />, label: "TV" },
+        { icon: <FaBath className="text-royal" />, label: "Attached Bath" },
+        { icon: <MdElevator className="text-royal" />, label: "Lift Access" },
+      ],
+      acOnly: [
+        { icon: <FaSnowflake className="text-royal" />, label: "AC" },
+      ],
+    },
   },
   {
     title: "Luxury Room",
-    price: "₹2500",
     img: luxuryImg,
     desc: "Spacious room with premium amenities.",
-    features: [
-      { icon: <FaWifi className="text-royal" />, label: "Free WiFi" },
-      { icon: <FaSnowflake className="text-royal" />, label: "AC" },
-      { icon: <FaTv className="text-royal" />, label: "TV" },
-      { icon: <FaBath className="text-royal" />, label: "Attached Bath" },
-      { icon: <MdElevator className="text-royal" />, label: "Lift Access" },
-    ],
+    price: {
+      ac: "₹2000.00",
+      nonAc: "₹1700.00",
+    },
+    features: {
+      common: [
+        { icon: <FaWifi className="text-royal" />, label: "Free WiFi" },
+        { icon: <FaTv className="text-royal" />, label: "TV" },
+        { icon: <FaBath className="text-royal" />, label: "Attached Bath" },
+        { icon: <MdElevator className="text-royal" />, label: "Lift Access" },
+      ],
+      acOnly: [
+        { icon: <FaSnowflake className="text-royal" />, label: "AC" },
+      ],
+    },
   },
   {
     title: "Triple Room",
-    price: "₹3000",
     img: tripleImg,
     desc: "Ideal for families or groups.",
-    features: [
-      { icon: <FaWifi className="text-royal" />, label: "Free WiFi" },
-      { icon: <FaSnowflake className="text-royal" />, label: "AC" },
-      { icon: <FaTv className="text-royal" />, label: "TV" },
-      { icon: <FaBath className="text-royal" />, label: "Attached Bath" },
-      { icon: <MdElevator className="text-royal" />, label: "Lift Access" },
-    ],
+    price: {
+      ac: "₹2300.00",
+      nonAc: "₹2000.00",
+    },
+    features: {
+      common: [
+        { icon: <FaWifi className="text-royal" />, label: "Free WiFi" },
+        { icon: <FaTv className="text-royal" />, label: "TV" },
+        { icon: <FaBath className="text-royal" />, label: "Attached Bath" },
+        { icon: <MdElevator className="text-royal" />, label: "Lift Access" },
+      ],
+      acOnly: [
+        { icon: <FaSnowflake className="text-royal" />, label: "AC" },
+      ],
+    },
   },
 ];
 
 export default function Rooms() {
-  // Optional: put your real number here, or pass per-room if needed
-  const whatsappNumber = "91XXXXXXXXXX";
+  const whatsappNumber = "918895575244";
 
   return (
     <section id="rooms" className="py-16 bg-gray-50">

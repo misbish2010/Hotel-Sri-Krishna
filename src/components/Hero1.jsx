@@ -3,9 +3,8 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const heroImages = [
-  "https://images.unsplash.com/photo-1501117716987-c8e63d0c2f3c?auto=format&fit=crop&w=1600&q=80",
-  "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1600&q=80",
-  "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1600&q=80",
+
+  "/images/hero/6.jpg",
 ];
 
 export default function Hero() {
@@ -20,6 +19,7 @@ export default function Hero() {
   }, []);
 
   return (
+
     <section id="home" className="h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background slideshow */}
       {heroImages.map((img, i) => (
@@ -43,13 +43,10 @@ export default function Hero() {
         transition={{ duration: 0.8 }}
         className="relative text-center text-white px-4 z-10"
       >
-
-<h1 className="text-4xl md:text-6xl font-serif mb-4 leading-tight">
-  Welcome to
-  <br className="block md:hidden" />
-  Hotel Sri Krishna
-</h1>
-
+        <h1 className="text-4xl md:text-6xl font-serif mb-4">
+          Welcome to
+          <span className="block md:inline"> Hotel Sri Krishna</span>
+        </h1>
 
 
         <p className="mb-6 text-lg md:text-xl">Comfort & Tradition in the Heart of Koraput</p>

@@ -7,12 +7,22 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const photos = [
-  { src: "https://images.unsplash.com/photo-1501117716987-c8e63d0c2f3c?auto=format&fit=crop&w=800&q=60" },
-  { src: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60" },
-  { src: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=60" },
-  { src: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=60" },
-  { src: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=60" },
-  { src: "https://images.unsplash.com/photo-1505691723518-36a2a6d3b1f6?auto=format&fit=crop&w=800&q=60" },
+  { src: "/images/gallery/1.JPG", title: "Deluxe AC Room" },
+  { src: "/images/gallery/2.jpeg", title: "Non-AC Room" },
+  { src: "/images/gallery/3.jpeg", title: "Non-AC Room" },
+  { src: "/images/gallery/4.jpeg", title: "Non-AC Room" },
+  { src: "/images/gallery/5.jpg", title: "Non-AC Room" },
+  { src: "/images/gallery/6.jpg", title: "Non-AC Room" },
+  { src: "/images/gallery/7.jpeg", title: "Non-AC Room" },
+  { src: "/images/gallery/8.jpeg", title: "Non-AC Room" },
+  { src: "/images/gallery/9.jpeg", title: "Non-AC Room" },
+  { src: "/images/gallery/10.jpeg", title: "Non-AC Room" },
+  { src: "/images/gallery/11.jpeg", title: "Non-AC Room" },
+  { src: "/images/gallery/12.jpeg", title: "Non-AC Room" },
+  { src: "/images/gallery/13.jpeg", title: "Non-AC Room" },
+  { src: "/images/gallery/14.jpeg", title: "Non-AC Room" },
+  { src: "/images/gallery/15.jpeg", title: "Non-AC Room" },
+  { src: "/images/gallery/16.jpeg", title: "Non-AC Room" },
 ];
 
 export default function HotelGallery() {
